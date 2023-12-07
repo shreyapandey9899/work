@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Gorditas&family=Open+Sans:wght@500&family=Playpen+Sans:wght@100;500&family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+    <title>_</title>
+    <style>
+      body {
+        transition: filter 0.5s ease;
+        font-family:;
+      }
+      .blur {
+        filter:blur(5px)
+      }
+    </style>
+  </head>
+  <body>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum at fuga
+    fugit atque et voluptatibus sed aperiam ullam, dignissimos hic quam
+    recusandae omnis exercitationem nihil voluptas eaque velit sequi, modi ea
+    dolor laboriosam temporibus nam est. Porro, similique reiciendis blanditiis
+    optio labore inventore quae, fuga nulla nemo iste sed quas!
+    <script>
+      function showAlert() {
+        document.body.classList.add("blur");
+
+        setTimeout(function () {
+          alert("This is a pop-up alert!");
+        }, 500);
+      }
+    </script>
+
+    <button onclick="showAlert()">Show Alert</button>
+  </body>
+</html>
